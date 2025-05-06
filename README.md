@@ -51,7 +51,7 @@ The **Cancer Diagnosis System Desktop** application aims to provide a user-frien
    git clone https://github.com/mahmoud-saed/Cancer-Diagnosis-System-desktop.git
    cd Cancer-Diagnosis-System-desktop
    ```
-
+
 
 2. **Setup Backend**:
 
@@ -63,7 +63,7 @@ The **Cancer Diagnosis System Desktop** application aims to provide a user-frien
    python manage.py migrate
    python manage.py runserver
    ```
-
+
 
 3. **Setup Frontend**:
 
@@ -72,7 +72,7 @@ The **Cancer Diagnosis System Desktop** application aims to provide a user-frien
    npm install
    npm start
    ```
-
+
 
 ---
 
@@ -84,7 +84,7 @@ The **Cancer Diagnosis System Desktop** application aims to provide a user-frien
    cd Back-end
    python manage.py runserver
    ```
-
+
 
 2. **Launch the Electron Frontend**:
 
@@ -92,7 +92,7 @@ The **Cancer Diagnosis System Desktop** application aims to provide a user-frien
    cd ../Front-end
    npm start
    ```
-
+
 
 3. **Interact with the Application**:
 
@@ -115,7 +115,7 @@ Cancer-Diagnosis-System-desktop/
 │   └── ... (Electron project files)
 └── README.md
 ```
-
+
 
 ---
 
@@ -124,13 +124,13 @@ Cancer-Diagnosis-System-desktop/
 ### Backend (Django)
 
 - Django==3.x.x
-- djangorestframework==3.x.x
-- ... (other dependencies as listed in `requirements.txt`)
+- djangorestframework==3.x.x
+- ... (other dependencies as listed in `requirements.txt`)
 
 ### Frontend (Electron)
 
 - Electron==x.x.x
-- ... (other dependencies as listed in `package.json`)
+- ... (other dependencies as listed in `package.json`)
 
 ---
 
